@@ -16,6 +16,7 @@ function initMap() {
     //Verificar que el navegador soporte la geolocalización
     if (navigator.geolocation){
       navigator.geolocation.getCurrentPosition(localizacion, error);
+      
     } 
     
    //creando funcion de localizacion para obtener longitud y latitud
@@ -33,8 +34,7 @@ function initMap() {
     map: map
   });
 
-  map.setZoom(18);
-  map.setCenter({lat: latitud,  lng: longitud});
+ 
     }
    
    //creando funcion por si se genera un error

@@ -7,6 +7,7 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<!-- Compiled and minified CSS -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="assets/main.css">
 	<title>EASY-VRECO</title>
 </head>
@@ -17,8 +18,19 @@
 			<div class="container">
 				<div class="row">
 					<div class="col s12">
+						<div class="col s3">
 							<a class="waves-effect waves-light btn" id="encuentrame">button</a>
-						<a href="#" class="brand-logo ">Logo</a>
+						</div>
+						<div class="input-field col s3">
+								<i class="material-icons prefix">location_searching</i>
+								<input id="origen" type="text" class="validate">
+								<label for="origen">Origen</label>
+							</div>
+							<div class="input-field col s3">
+									<i class="material-icons prefix">location_on</i>
+									<input id="destino" type="text" class="validate">
+									<label for="destino">Destino</label>
+								</div>
 						<ul class="right hide-on-med-and-down ">
 							<li>
 								<a href="sass.html ">
